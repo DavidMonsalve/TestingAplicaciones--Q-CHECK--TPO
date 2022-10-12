@@ -1,7 +1,7 @@
 Nombre del grupo:
 
 
-Q-CHECK.
+  Q-CHECK.
 
 
 Integrantes del grupo:
