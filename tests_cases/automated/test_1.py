@@ -28,3 +28,4 @@ class Test1():
   
     user_name = self.driver.find_element(By.CLASS_NAME, "dropbtn").text
     assert "Sample" in user_name
+    
