@@ -25,4 +25,4 @@ class TestHome():
     self.driver.find_element(By.ID, "logo").click()
     time.sleep(5)
     texto_bienveida = self.driver.find_element(By.CLASS_NAME, "displayCategory").text
-    assert texto_bienveida, "PASS"
+    assert "Shop by Category:" in texto_bienveida, "PASS"
