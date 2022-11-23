@@ -28,4 +28,4 @@ class TestLogin():
     self.driver.find_element(By.CSS_SELECTOR, "p:nth-child(3) > input").click()
     time.sleep(5)
     username = self.driver.find_element(By.CLASS_NAME, "dropbtn").text
-    assert username, "PASS"
+    assert "Sample" in username, "PASS"
